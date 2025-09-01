@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Peoples Bakers</title>
+<!--js of map-->
+  <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyChc9aMh9QkyM1hAZ0LFXQL82eBJ2YBRRw&callback=console.debug&libraries=maps,marker&v=beta">
+    </script>
+
+	<!---------------------------------------------------style----------------------------------------->
+<style>
+body{margin:0;
+background-color:#be9b7b; }
+
+/*nav bar*/
+.navbar {
+  overflow: hidden;
+  background-color:#5e4134;
+  position: fixed;
+  top: 120px;
+  width: 100%;
+  transition: top 0.3s;
+  opacity:75%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+
+/*container*/
+div.container {
+     width:100%;
+     overflow:auto;
+     font-size: 25px;
+     position: ;
+     top: 0;
+     background-color:#3c2f2f;
+    }
+
+div.container div{ 
+     float:left;
+	.p1{
+		font-size: 50px;}
+	}
+h1  {color:white;
+     font-family:Helvetica;
+	 font-size: 50px;
+	 margin-left: 20px;}
+
+h2{color: #3c2f2f}
+
+
+
+ /*google map*/
+ div.map{
+  width: 100%;
+  height: 480px;
+  margin: 0;
+ padding-top: 45px;
+ }
+
+ /*address*/
+div.address{
+  width: 100%;
+  overflow:auto;
+  } 
+ div.address div{
+  width: 33%;
+  float:left;
+ }  
+ p{
+  font-size:20px;
+ }
+ div.xx{
+  width: 1000px;
+  overflow: auto;
+  float: left;
+}
+
+</style>
+</head>
+
+
+<body>
+
+	<!--container-->
+	<div class="container">
+	    <div>
+		    <img src="images/pblogo.png" alt="logo" width="110" height="100" class="logo">	
+	    </div>
+	    <div>
+            <h1>PEOPLES BAKERS</h1>
+        </div>
+    </div>
+
+
+<!--menu-->
+<div class="navbar">
+  <a href="index.html">HOME</a>
+  <a href="menu.html">MENU</a>
+  <a href="contactus.html">CONTACT US</a>
+  <a href="findus.html">FIND US</a>
+    <div class="xx"><p>      </p></div>
+  <a href="loggin.html"> LOGIN</a>
+</div>
+
+<!--google map-->
+<div class="map">
+    <gmp-map center="6.6797709465026855,80.162353515625" zoom="14" map-id="DEMO_MAP_ID">
+      <gmp-advanced-marker position="6.6797709465026855,80.162353515625" title="My location">
+      </gmp-advanced-marker>
+    </gmp-map>
+</div>
+
+<div class="address">
+  <div>
+    <p>
+      Peoples bakers,<br>Egaloya,<br>Bulathsinhala.
+    </p>
+  </div>
+  <div>
+     <p>
+      Peoples bakers,<br>Egaloya,<br>Bulathsinhala.
+    </p>
+  </div>
+  <div>
+     <p>
+      Peoples bakers,<br>Egaloya,<br>Bulathsinhala.
+    </p>
+  </div>
+</div>
+
+</body>
+<div class="address">
+  <div>
+    <p>
+      Peoples bakers,<br>Egaloya,<br>Bulathsinhala.
+    </p>
+  </div>
+  <div>
+     <p>
+      Peoples bakers,<br>Egaloya,<br>Bulathsinhala.
+    </p>
+  </div>
+  <div>
+     <p>
+      Peoples bakers,<br>Egaloya,<br>Bulathsinhala.
+    </p>
+  </div>
+</div>
+
+</body>
+</html>

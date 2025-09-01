@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Peoples Bakers</title>
+
+	<!---------------------------------------------------style----------------------------------------->
+<style>
+body{margin:0;
+background-color:#be9b7b; }
+
+
+h1  {color:white;
+     font-family:Helvetica;
+	 font-size: 50px;
+	 margin-left: 20px;}
+
+h2{color: #3c2f2f}
+
+p{
+	color: white;
+	font-size: 20px;
+	font-family:cursive ;
+}
+
+h3{color: #5e4134;
+	font-size: 30px;
+	font-family: ;
+}
+
+/*nav bar*/
+.navbar {
+  overflow: hidden;
+  background-color:#5e4134;
+  position:;
+  top: 120px;
+  width: 100%;
+  transition: top 0.3s;
+  opacity:75%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+
+/*container*/
+div.container {
+     width:100%;
+     overflow:auto;
+     font-size: 25px;
+     position: ;
+     top: 0;
+     background-color:#3c2f2f;
+    }
+
+div.container div{ 
+     float:left;
+	.p1{
+		font-size: 50px;}
+	}
+
+
+/* contact info */
+div.contact{
+	width: 100%;
+	overflow: auto;
+}
+ div.contact div{
+  width: 50%;
+  float:left;
+ } 
+div.xx{
+  width: 1000px;
+  overflow: auto;
+  float: left;
+}
+
+/*-----------------------------------------------form-----------------------------*/
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color:#3c2f2f;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color:#3c2f2f;
+}
+
+.form {
+  border-radius: px;
+  background-color:(255,244,230);
+  padding: 20px;
+  width:;
+  padding-left:;
+ 
+/*-------------------------------------------------------------------------------*/
+
+</style>
+</head>
+
+
+<body>
+
+	<!--container-->
+	<div class="container">
+	    <div>
+		    <img src="images/pblogo.png" alt="logo" width="110" height="100" class="logo">	
+	    </div>
+	    <div>
+            <h1>PEOPLES BAKERS</h1>
+        </div>
+    </div>
+
+
+<!--menu-->
+<div class="navbar">
+  <a href="index.html">HOME</a>
+  <a href="menu.html">MENU</a>
+  <a href="contactus">CONTACT US</a>
+  <a href="findus.html">FIND US</a>
+    <div class="xx"><p>      </p></div>
+  <a href="loggin.html"> LOGIN</a>
+
+</div>
+
+<br><br>
+
+<!--intro aboutus-->
+<center>
+	<div>
+	<p>
+Welcome to Peoples Bakers! where passion meets pastry perfection. At our bakery, we take pride in crafting indulgent treats that not only satisfy your cravings but also ignite a love affair with every delightful bite. With a commitment to quality ingredients, artisanal techniques, and a dash of creativity, we bring you a symphony of flavors that cater to both the traditional and the adventurous palate. Join us on a journey of sweetness, where each confection is a testament to our dedication to baking excellence. Welcome to the heart of irresistible aromas and delectable moments.<br> – welcome to Peoples Bakers.
+	</p>
+    </div>
+</center>
+
+<!--contact info-->
+<div class="contact">
+	<div>
+		<center>
+		<h3>CONTACT US</h3>
+		<p>Call us if you have any questions about our staff or baking,<br> We are poen 24 hours a day.</p>
+
+
+<!--questios form-->
+	    <div class="form">
+	      <form action="/action_page.php">
+          <label for="fname">Enter your full name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          <label for="lname">Enter your email</label>
+          <input type="text" id="email" name="email" placeholder="Email">
+
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" placeholder="Subject">
+
+
+          <label for="subject">Enter your message</label>
+          <textarea id="message" name="message" placeholder="Message" style="height:200px"></textarea>
+
+          <input type="submit" value="Submit">
+           </form>
+		</div>
+		<center>
+	 </div>
+<!--social media info-->
+    <div>
+		<center>
+		<h3>GET AHOLD OF US</h3>
+		<br>
+		<p>TEL:01234567890</p><br>
+    <p>peoplesbakers@gmail.com</p><br>
+    <p>
+    <a href="facebook.com"><img src="images/fb.png"alt="fb" width="50" height="50"></a>
+    <a href="instagram.com"><img src="images/insta.png"alt="instagram" width="50" height="50"></a>
+    <a href="whatsapp.com"><img src="images/wp.png"alt="whatsapp" width="50" height="50"></a>
+    </p>
+		<center>
+
+	</div>
+</div>
+
+<hr id="test"/>
+
+
+</body>
+</html>

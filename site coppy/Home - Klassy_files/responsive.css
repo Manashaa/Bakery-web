@@ -1,0 +1,929 @@
+.mobile-only {
+	display: none !important;
+}
+
+/* 
+  ##Device = Large desktop and highresolution laptops
+*/
+@media (min-width: 1601px) {}
+
+/* 
+  ##Device = Small desktop and laptops
+*/
+@media (min-width: 1281px) and (max-width: 1600px) {}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+
+	/* nav */
+	#mobile-nav-toggle {
+		position: absolute;
+	}
+
+	#header {
+		position: absolute;
+		border-bottom: 1px solid #fff;
+	}
+
+	#mobile-nav {
+		width: 100%;
+		background: #ffffff;
+		left: 100%;
+		padding-top: 100px;
+
+	}
+
+	#mobile-nav ul li.mob-nav-dec a {
+		color: #000000;
+		text-align: center;
+		font-size: 14px;
+		width: 130px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	body.home.mobile-nav-active #mobile-nav-toggle i {
+		color: #000;
+	}
+
+	#mobile-nav ul li.mob-nav-dec a:hover {
+		color: #FED070;
+	}
+
+
+
+	img.mob-nav-up-down-img {
+		height: 60px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	#mobile-nav ul li.mob-nav-dec a::after {
+		content: "";
+		display: block;
+		background: url(../images/Line.svg) no-repeat;
+		width: 90px;
+		height: 28px;
+		position: absolute;
+		right: 0;
+		margin: auto;
+		margin-top: 2px;
+		background-repeat: no-repeat;
+	}
+
+	nav#mobile-nav img.mob-nav-up-down-img {
+		display: block;
+	}
+
+	ul.mobile-menu-social {
+
+		text-align: center;
+		padding-top: 15px !important;
+		padding-left: 0px !important;
+		padding-right: 0px !important;
+		padding-bottom: 0px !important;
+		border-top: 1px solid #6B6B6B;
+		width: 200px;
+		margin-right: auto !important;
+		margin-left: auto !important;
+	}
+
+	li.social-icon-mob-nav {
+		display: inline-table;
+	}
+
+	.social-nav-icon-wrap {
+		padding-top: 20px;
+	}
+
+	ul.mobile-menu-social li.social-icon-mob-nav img {
+		height: 25px;
+	}
+	/* nav end  */
+
+	section#intro {
+		height: 450px;
+		background: unset;
+	}
+
+	div#introCarousel {
+		height: 450px;
+	}
+
+	.carousel-container {
+		height: 450px;
+	}
+
+	.abt-head-img-wrap img {
+		height: 100%;
+		width: 100%;
+	}
+
+	.abt-grand-img-wrap img {
+		height: 120px;
+	}
+
+	p.grand-main-text {
+		font-size: 13px;
+	}
+
+	.abt-normal-text-wrap p {
+		padding: 0px 20px;
+	}
+
+	.abt-main-text-wrap h3 {
+		font-size: 40px;
+	}
+
+	/* service */
+	.our-tabs-wrap img {
+		display: none;
+	}
+
+	.nav-pills .nav-link {
+		padding: 25px !important;
+		margin: 0px;
+		font-size: 15px;
+		text-align: center;
+	}
+
+	.nav-pills a.nav-link.active:after {
+		display: none;
+	}
+
+	.nav-pills a.nav-link::after {
+		display: none;
+	}
+
+	div#v-pills-tab {
+		display: contents;
+	}
+
+	.row.our-menu-pill-main-wrap .col-md-4 {
+		padding: 0px;
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+
+	.row.our-menu-pill-main-wrap {
+		display: contents;
+	}
+
+
+	a#v-pills-1-tab {
+		width: 33.33%;
+	}
+
+	a#v-pills-2-tab {
+		width: 33.33%;
+	}
+
+	a#v-pills-3-tab {
+		width: 33.33%;
+	}
+
+	.row.our-menu-pill-main-wrap .col-md-8 {
+		flex: 0 0 100%;
+		max-width: 100%;
+		padding-top: 15px;
+	}
+
+	div#v-pills-tabContent .row {
+		padding-top: 25px;
+	}
+
+	div#v-pills-3 .row .col-md-9 .row {
+		padding: 0px;
+	}
+
+	.row.abt-midle-text-wrap {
+		padding-bottom: 15px;
+	}
+
+	section#services {
+		padding: 20px 0 40px 0;
+	}
+
+	.menu-normal-text-wrap {
+		padding: 0px 20px;
+	}
+
+	.menu-main-text-wrap h3 {
+		font-size: 30px;
+	}
+
+	section#most_wanted {
+		padding: 20px 0 20px 0;
+	}
+
+	.row.most-box-wrao {
+		padding-top: 20px;
+	}
+
+	.most-box-text-wrap h3 {
+		font-size: 25px;
+	}
+
+	.most-box-text-wrap p {
+		font-size: 16px;
+	}
+
+	section#contact {
+		padding: 60px 20px 40px 20px;
+		height: 715px;
+	}
+	.col-md-8.contact-form-wrap {
+		padding: 30px 15px;
+	}
+
+	.row.contact-main-wrap {
+		margin-top: 175px;
+	}
+
+	.contact-info-text-wrap {
+		padding: 0px 5px;
+	}
+
+	.col-md-9.contact-form-wrap {
+		padding: 30px 20px;
+	}
+
+	.contact-info-main-text p {
+		font-size: 15px;
+	}
+
+	.mobile-display-none {
+		display: none;
+	}
+
+	.mobile-display {
+		display: block;
+	}
+
+	.row.abt-bottom-img-wrap.mobile-display .col-md-12.p-0 .row .col-md-6 {
+		flex: 0 0 100%;
+		max-width: 100%;
+		padding: 0px 20px;
+	}
+
+	.abt-our-img-wrap img {
+		width: 100%;
+	}
+
+	.abt-our-text-wrap {
+		background-color: #FED070;
+		text-align: center;
+		height: 320px;
+	}
+
+	.abt-our-text-wrap.our-people-color-change {
+		background-color: #331405;
+	}
+
+	.abt-our-text-wrap.our-people-color-change p {
+		color: #ffffff;
+	}
+
+	.row.abt-bottom-img-wrap .row {
+		margin: 0px !important;
+	}
+.social-icon-desktop-nav{
+	display: none;
+}
+.contact-info-black-text p {
+    font-size: 16px;
+}
+
+.contact-small-text p {
+    font-size: 15px;
+}
+
+
+
+
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+	.abt-head-img-wrap img {
+		width: 100%;
+		height: 100%;
+	}
+
+
+	.abt-grand-img-wrap img {
+		height: 227px;
+	}
+
+	.abt-normal-text-wrap p {
+		padding: 0px 30px;
+	}
+
+	.abt-main-text-wrap h3 {
+		font-size: 40px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+	.mobile-only {
+		display: block !important;
+	}
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+	.mobile-only {
+		display: block !important;
+	}
+}
+
+
+/* iPhone 5/5s only */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+
+	/* nav */
+	.social-icon-desktop-nav{
+		display: none;
+	}
+	
+	#mobile-nav-toggle {
+		position: absolute;
+	}
+
+	#header {
+		position: absolute;
+		border-bottom: 1px solid #fff;
+		padding: 17px 0;
+	}
+
+
+	#mobile-nav {
+		width: 100%;
+		background: #ffffff;
+		left: 100%;
+		padding-top: 100px;
+
+	}
+
+	#mobile-nav ul li.mob-nav-dec a {
+		color: #000000;
+		text-align: center;
+		font-size: 14px;
+		width: 130px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	body.home.mobile-nav-active #mobile-nav-toggle i {
+		color: #000;
+	}
+
+	#mobile-nav ul li.mob-nav-dec a:hover {
+		color: #FED070;
+	}
+	ul.mobile-menu-social{
+		display: block;
+	}
+	div#v-pills-tabContent {
+		padding-top: 20px;
+	}
+
+	.our-drink-img-wrap img {
+		height: 200px;
+		width: 100%;
+		padding-bottom: 15px;
+	}
+	.mobile-size-drink{
+		width: 50%;
+	}
+	img.mob-nav-up-down-img {
+		height: 60px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	#mobile-nav ul li.mob-nav-dec a::after {
+		content: "";
+		display: block;
+		background: url(../images/Line.svg) no-repeat;
+		width: 90px;
+		height: 28px;
+		position: absolute;
+		right: 0;
+		margin: auto;
+		margin-top: 2px;
+		background-repeat: no-repeat;
+	}
+
+	nav#mobile-nav img.mob-nav-up-down-img {
+		display: block;
+	}
+
+	ul.mobile-menu-social {
+
+		text-align: center;
+		padding-top: 15px !important;
+		padding-left: 0px !important;
+		padding-right: 0px !important;
+		padding-bottom: 0px !important;
+	    border-top: 1px solid #6B6B6B;
+		width: 200px;
+		margin-right: auto !important;
+		margin-left: auto !important;
+	}
+
+	li.social-icon-mob-nav {
+		display: inline-table;
+	}
+
+	.social-nav-icon-wrap {
+		padding-top: 20px;
+	}
+
+	/* nav end  */
+	#intro .carousel-fade .carousel-inner .carousel-item,
+	#intro .carousel-fade .carousel-inner .active.carousel-item-left,
+	#intro .carousel-fade .carousel-inner .active.carousel-item-right {
+		
+		height: 350px;
+	}
+
+	.abt-head-img-wrap img {
+		height: 100% !important;
+		width: 100% !important;
+	}
+
+	.abt-grand-img-wrap img {
+		height: 175px;
+	}
+
+	section#about {
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-bottom: 15px;
+	}
+
+	.mobile-display-none {
+		display: none;
+	}
+
+	.mobile-display {
+		display: block
+	}
+
+	.abt-normal-text-wrap p {
+		padding: 0px;
+		font-size: 14px;
+	}
+
+	.abt-hover-content p {
+		font-size: 14px;
+		text-align: center;
+		line-height: 22px;
+	}
+
+	.menu-normal-text-wrap p {
+		font-size: 14px;
+	}
+
+	.abt-main-text-wrap h3 {
+		font-size: 34px;
+	}
+
+	.row.abt-midle-text-wrap {
+		padding-bottom: 0px;
+	}
+
+	.abt-our-img-wrap img {
+		width: 100%;
+	}
+
+	.abt-our-text-wrap {
+		background-color: #FED070;
+		text-align: center;
+	}
+
+	.abt-our-text-wrap .abt-hover-content p {
+		padding: 0px 15px 15px 15px;
+	}
+
+	.abt-our-text-wrap.our-people-color-change {
+		background-color: #331405;
+	}
+
+	.abt-our-text-wrap.our-people-color-change p {
+		color: #ffffff;
+	}
+
+	.menu-main-text-wrap h3 {
+		font-size: 27px;
+	}
+
+	.abt-our-text-wrap .abt-main-text-wrap {
+		padding-bottom: 0px;
+	}
+
+	.abt-our-text-wrap.our-people-color-change .menu-main-text-wrap {
+		padding-top: 15px;
+	}
+
+	.menu-normal-text-wrap {
+		padding: 0px;
+	}
+
+	section#services {
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+
+	section#most_wanted {
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+
+	
+
+	.row.most-box-wrao {
+		padding: 0px;
+	}
+
+	.most-text-box-wrap-1 {
+		height: 220px;
+	}
+
+	.most-text-box-wrap-2 {
+		height: 220px;
+	}
+
+	.most-text-box-wrap-3 {
+		height: 220px;
+	}
+
+	.most-box-text-wrap h3 {
+		font-size: 35px;
+	}
+
+	#contact {
+		height: 100%;
+	}
+
+	.col-md-8.contact-form-wrap {
+		padding: 15px;
+	}
+
+
+	.col-md-8.contact-form-wrap .menu-normal-text-wrap p {
+		text-align: center;
+	}
+
+
+
+	.col-md-8.contact-form-wrap .menu-main-text-wrap h3 {
+		text-align: center;
+	}
+
+	.row.contact-main-wrap {
+		margin-top: 100px;
+	}
+
+	.company-name-set {
+		border-top: 1px solid rgba(255, 210, 151, 0.4196078431372549);
+		margin-top: 9px;
+
+	}
+
+	p.ft-right-content {
+		font-size: 10px;
+	}
+
+	.footer-top {
+		padding-top: 10px;
+	}
+
+	.footer-list-wrap ul {
+		padding: 0px;
+	}
+
+	.footer-list-wrap li {
+		display: contents;
+	}
+
+	.footer-list-wrap a {
+		font-size: 12px;
+		letter-spacing: 2.2px;
+		padding: 5px;
+	}
+
+	.foot-logo-wrap img {
+		height: 75px;
+	}
+
+	footer#footer {
+
+		height: 100%;
+	}
+
+	.col-md-4.contact-info-wrap {
+		padding: 20px 0px;
+	}
+
+	.contact-info-main-text p {
+		text-align: center;
+		font-size: 18px;
+
+	}
+
+	.contact-social-icon {
+		text-align: center;
+	}
+	.most-box-text-wrap p {
+		font-size: 18px;
+	}
+
+	.contact-small-text p {
+		text-align: center;
+		font-size: 16px;
+	}
+	.contact-info-text-wrap {
+		padding: 0px 25px;
+	}
+
+	.contact-info-black-text p {
+		text-align: center;
+		font-size: 18px;
+	}
+
+	section#intro {
+		height: 350px;
+		background: unset;
+	}
+
+	div#introCarousel {
+		height: 350px;
+	}
+
+	.carousel-container {
+		height: 350px;
+	}
+
+	span.carousel-control-next-icon.ion-chevron-right {
+		display: none;
+	}
+
+	span.carousel-control-prev-icon.ion-chevron-left {
+		display: none;
+	}
+
+	.send-msg-text {
+		text-align: center;
+	}
+	#intro .btn-get-started {
+		padding: 8px 32px;
+		height: 40px;
+		width: 165px;
+		font-size: 16px;
+	}
+	.row.abt-midle-white-wrap {
+		margin-top: -75px;
+	}
+	
+	.row.abt-heading-wrap {
+		padding-top: 15px;
+	}
+	.carousel-content {
+		margin-bottom: 50px;
+	}
+	
+	.carousel-indicators {
+		bottom: 20px !important;
+	}
+	p.grand-main-text {
+		font-size: 16px;
+	}
+	
+	p.grand-sub-text {
+		font-size: 14px;
+	}
+	.abt-main-text-wrap {
+		padding-top: 17px;
+		padding-bottom: 5px;
+	}
+	.row.abt-bottom-img-wrap {
+		padding-top: 15px;
+	}
+	.our-cat-heding-wrap h4 {
+		font-size: 17px;
+	}
+	.col-md-8.contact-form-wrap .menu-normal-text-wrap{
+		padding-top: 0px !important;
+	}
+	.col-md-8.contact-form-wrap .menu-main-text-wrap {
+		padding-bottom: 0px;
+	}
+	form#contact-form {
+		text-align: center;
+	}
+	
+	#contact .form input[type="submit"] {
+		float: unset;
+		margin: 0px;
+	}
+	
+	/* service */
+	#services {
+		height: 100%;
+	}
+	.our-tabs-wrap img {
+		display: none;
+	}
+	section.border-to-set-wrap {
+		padding-top: 25px;
+	}
+	
+	.most-white-lard-text p {
+		margin: 0px;
+		font-size: 18px;
+	}
+
+	.nav-pills .nav-link {
+		padding: 12px !important;
+		margin: 0px;
+		font-size: 10px;
+		text-align: center;
+		letter-spacing: 2px;
+	}
+
+	.nav-pills a.nav-link.active:after {
+		display: none;
+	}
+
+	.nav-pills a.nav-link::after {
+		display: none;
+	}
+
+	div#v-pills-tab {
+		display: contents;
+	}
+
+	.row.our-menu-pill-main-wrap .col-md-4 {
+		padding: 0px;
+	}
+
+
+
+	a#v-pills-1-tab {
+		width: 33.33%;
+	}
+
+	a#v-pills-2-tab {
+		width: 33.33%;
+	}
+
+	a#v-pills-3-tab {
+		width: 33.33%;
+	}
+	.our-cat-content-wrap p {
+		font-size: 14px;
+	}
+	
+	.row.our-menu-pill-main-wrap {
+		padding: 15px 0px;
+	}
+	.copy-right-sec {
+		border: unset;
+	}
+	.foot-logo-wrap {
+		padding-top: 0px;
+		padding-bottom: 10px;
+	}
+	ul.mobile-menu-social li.social-icon-mob-nav img {
+		height: 25px;
+	}
+	.mobile-most-box{
+		display: block;
+	}
+	.desktop-most-box{
+		display: none;
+	}
+	.most-text-box-wrap-1:before {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 13px 11.5px 0 11.5px;
+    border-color: #fbf1cd transparent transparent transparent;
+    bottom: -13px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    margin: auto;
+}
+.most-text-box-wrap-2:before {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 13px 11.5px 0 11.5px;
+    border-color: #fbf1cd transparent transparent transparent;
+    bottom: -13px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    margin: auto;
+}
+.most-text-box-wrap-3:before {
+	position: absolute;
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 13px 11.5px 0 11.5px;
+    border-color: #fbf1cd transparent transparent transparent;
+    top: 220px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    margin: auto;
+}
+}
+
+/* Nexus 5x */
+
+@media only screen and (min-width: 361px) and (max-width: 411px) and (min-height: 641px) and (max-height: 731px) and (orientation:portrait) {
+	p {}
+}
+
+@media only screen and (min-height: 361px) and (max-height: 411px) and (min-width: 641px) and (max-width: 731px) and (orientation:landscape) {
+	p {}
+}
+
+/* Nexus 6p */
+
+@media only screen and (min-width: 412px) and (max-width: 435px) and (min-height: 732px) and (max-height: 773px) and (orientation:portrait) {
+	p {}
+}
+
+@media only screen and (min-height: 412px) and (max-height: 435px) and (min-width: 732px) and (max-width: 773px) and (orientation:landscape) {
+	p {}
+}
